@@ -173,3 +173,61 @@ x = str("s1") # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
 ```
+#### Python Strings:
+- Strings can be inside a single or double quotation marks.
+
+- 'hello' is same as "hello"
+
+**Quotes inside quotes:**
+- We can use quotes inside a string, as long as they don't match the quotes surrounding the string.
+```python
+print("It's alright")
+print("He is called 'Johnny'")
+print('He is called "Johnny"')
+```
+
+**Multi Line strings:**
+- use triple quotes (single or double) for multiline string.
+```python
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+```
+
+**String methods:**
+
+- in : returns True if present
+    ```python
+    txt = "The best things in life are free!"
+    print("free" in txt)    
+    ```
+- not in : returns True if not present
+    ```python
+    txt = "The best things in life are free!"
+    print("expensive" not in txt)
+    ```
+- len : returns the length of the string.
+    ```python
+    len(a)
+    ```
+**Slicing:**
+
+- You can return a range of characters by using the slice syntax.
+- Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+```python
+b = "Hello, World!"
+print(b[2:5])
+```
+
+**Modify Strings:**
+- upper() - to upper case
+- lower() - to lower case
+- strip() - removes before and after whitespace in a string
+- replace() - this method replaces a character with another
+```python
+a = "Hello, World!"
+print(a.replace("H", "J"))
+```
