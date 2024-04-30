@@ -222,12 +222,51 @@ b = "Hello, World!"
 print(b[2:5])
 ```
 
+
+
 **Modify Strings:**
 - upper() - to upper case
+
 - lower() - to lower case
+
 - strip() - removes before and after whitespace in a string
+
 - replace() - this method replaces a character with another
 ```python
 a = "Hello, World!"
 print(a.replace("H", "J"))
 ```
+- split() - this method will return the list which has the string splited into substring for the separator
+
+##### 30/4/24
+
+**F-Strings:**
+- To specify a string as an f-string, simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
+
+```python
+a=17
+b=f"hello, your age {a}"
+print(b) # hello, your age 17
+```
+- "{}" is known as placeholder, it can have modifier,operations or functions
+
+```python
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+```
+
+**Escape characters:**
+- To insert characters that are illegal in a string, use an escape character.
+
+- An escape character is a backslash \ followed by the character you want to insert.
+
+```python
+txt = "We are the so-called \"Vikings\" from the north."
+```
+
+**String Methods:**
+- All string methods returns new values. They don't change the original string.
+
+[String methods](https://www.w3schools.com/python/python_strings_methods.asp)
+
