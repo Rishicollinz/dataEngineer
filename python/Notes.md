@@ -270,3 +270,6 @@ txt = "We are the so-called \"Vikings\" from the north."
 
 [String methods](https://www.w3schools.com/python/python_strings_methods.asp)
 
+**Python boolean:**
+- Boolean : True or False 
+- bool() : Allows you to evaluate any value, give you True or False.
