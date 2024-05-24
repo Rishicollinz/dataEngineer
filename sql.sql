@@ -81,14 +81,5 @@ ALTER TABLE stud4 MODIFY gender VARCHAR(255);
 alter table stud4 add column leader tinyint NOT NULL;
 desc stud4;
 
-
-
-
-
-
-
-
-
-
-
-
+show tables;
+SHOW FULL TABLES IN testDB WHERE TABLE_TYPE LIKE 'VIEW';
